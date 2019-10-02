@@ -32,6 +32,7 @@ RSpec.describe GameOfLife do
 
     context do
       context "1th generation" do
+        let(:generations)  { 1 }
         it { is_expected.to eq blinker[1] }
       end
     end
